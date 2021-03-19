@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Online Examination Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<style>
+body{  
+background-image:url(blue.jpeg);
+background-size:cover;
+background-repeat: no-repeat;
+backdrop-filter:blur( 5px );
+-webkit-backdrop-filter:blur( 5px );
+font-family:Helvetica ;
+align-items: center;
+color: white;
+}
+
+h1{
+text-align: center;
+color:white;
+font-size: 70px;
+font-family:Helvetica ;
+}    
+ .box{
+     width: 900px;
+    align-items: center;
+    text-align: justify;
+    padding: 30px 30px 30px 30px ;
+    margin: 1% auto 0;
+    border:3px lightgreen solid;
+    border-radius: 30px;
+    float:center;
+    background:rgba(235, 235, 232, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+	-webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    font-family:Helvetica ;
+}
+.box  .btn input{
+    background: rgba(238, 18, 164);
+    color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+    border: rgba(238, 18, 164);
+    font-family:Helvetica ;
+
+}
+  /* pagination position styling */ 
+
+          
+
+  .pagination_section { 
+float:center;
+align-items: center;
+font-size: 20px;
+
+
+} 
+
+/* pagination styling */ 
+
+
+
+.pagination_section a { 
+
+color: white; 
+
+padding: 10px 18px; 
+
+text-decoration: none; 
+
+} 
+ /* pagination hover effect on active*/ 
+
+          
+
+ a:nth-child(5) { 
+
+background-color:rgba(248, 27, 211, 0.897); 
+
+color: white; 
+
+} 
+
+
+</style>  
+ 
+<body>
+    <div class = "first">
+        <h1>ONLINE EXAMINATION</h1>
+        <div class="box">
+            <p>MULTIPLE CHOICE. Read each item carefully. Choose the best answer on the choices.</p>
+            <div>Please stop answering in <span id="time">01:00</span> minutes!</div>
+            <form name="exam" id="exam">
+            <div>
+                <p>16. It is a scripting language used to create and control dynamic website content.</p>
+                <p><input type="radio" name="question16" value="JavaScript">A­. JavaScript</p>
+                <p><input type="radio" name="question16" value="php">B. php</p>
+                <p><input type="radio" name="question16" value="CSS">C. CSS</p>
+                <p><input type="radio" name="question16" value="Java">D. Java</p>
+                </div>
+                <div>
+                <p>17. ____ JavaScript is also called client-side JavaScript.</p>
+                <p><input type="radio" name="question17" value="Microsoft">A.­ Microsoft</p>
+                <p><input type="radio" name="question17" value="LiveWire">B. LiveWire</p>
+                <p><input type="radio" name="question17" value="Navigator">C.­ Navigator</p>
+                <p><input type="radio" name="question17" value="Native">D. Native</p>
+                </div>
+                <div>
+                <p>18. JavaScript was initially created to "make web pages alive".</p>
+                <p><input type="radio" name="question18" value="False">A. False</p>
+                <p><input type="radio" name="question18" value="True">B. True</p>
+                <p><input type="radio" name="question18" value="Both a and b">C. Both a and b</p>
+                <p><input type="radio" name="question18" value="Maybe">D. Maybe</p>
+                </div>
+                <div>
+                <p>19. ____ browsers were incapable of displaying images.</p>
+                <p><input type="radio" name="question19" value="Graphical">A.­ Graphical</p>
+                <p><input type="radio" name="question19" value="Markup">B. Markup</p>
+                <p><input type="radio" name="question19" value="PDA">C. PDA</p>
+                <p><input type="radio" name="question19" value="Text-based">D­. Text-based</p>
+                </div>
+                <div>
+                <p>20. The first version of HTML was written by ____.</p>
+                <p><input type="radio" name="question20" value="Ada Lovelace">A. Ada Lovelace</p>
+                <p><input type="radio" name="question20" value="Charles Babbage">B. Charles Babbage</p>
+                <p><input type="radio" name="question20" value="Tim Berners-Lee">C. Tim Berners-Lee</p>
+                <p><input type="radio" name="question20" value="Mark Zuckerberg">D. Mark Zuckerberg</p>
+                </div>
+                <div class="btn">
+              <center> <input type="button" name="" value="Submit" id="button" onclick="check()"></center> </div>
+                </form>
+                <script src="script.js"></script>
+            <br> <br> <br>
+    <div class="pagination_section"> 
+
+        <center><a href="third.html"><< Previous</a> 
+
+        <a href="first.html"class="active">1</a> 
+
+        <a href="sec.html">2</a> 
+
+        <a href="third.html" >3</a> 
+
+        <a href="fourth.html" >4</a> 
+
+        <a href="#">Next >></a> </center>
+
+    </div> 
+        </div>
+       
+</div>
+
+</body>
+
+        
+        
+        
+        
+</html>
